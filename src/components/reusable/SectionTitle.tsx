@@ -8,7 +8,7 @@ const SectionTitle = (props: SectionTitleProps) => {
   const { titleStacks, badgeTitle, alignment } = props;
   return (
     <div style={{ textAlign: alignment }}>
-      <span className="block w-max py-1 px-3 text-[0.75rem] rounded-full bg-dark-bg text-white text-center">
+      <span className={`block bg-dark-secondary-bg w-max ${alignment === 'center' ? 'mx-auto' : ''} py-1 px-3 text-[0.75rem] rounded-full bg-dark-bg text-white text-center`}>
         {badgeTitle}
       </span>
       <div className="mt-3">

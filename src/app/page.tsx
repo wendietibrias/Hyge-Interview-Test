@@ -1,5 +1,6 @@
 import AboutSection from "@/components/landing/AboutSection";
 import HeroSection from "@/components/landing/HeroSection";
+import ServiceSection from "@/components/landing/ServiceSection";
 import Navbar from "@/components/reusable/Navbar";
 
 export default function Home() {
@@ -11,6 +12,8 @@ export default function Home() {
         <HeroSection />
         {/** About Call  */}
         <AboutSection/>
+        {/** Service Call */}
+        <ServiceSection />
       </main>
      </>
   );
